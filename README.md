@@ -1,122 +1,66 @@
 # Security Skills
 
-A comprehensive collection of AI-powered penetration testing skills for security assessment frameworks.
+A comprehensive collection of AI-powered penetration testing skills following the [Agent Skills](https://agentskills.io) open standard.
 
 ## Overview
 
-This repository contains structured skill files that enable AI agents to perform systematic security testing. Each skill provides methodology, tools, commands, and guidance for specific attack techniques and services.
+This repository contains structured skill files for AI agents to perform systematic security testing. Skills are organized using OWASP Top 10 categories for web and logical service groups for network.
 
-## Quick Start
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/security_skills.git
-cd security_skills
-```
-
-### 2. Directory Structure
+## Directory Structure
 
 ```
 security_skills/
-├── README.md              # This file
-├── TODO.md                # Pending tasks and roadmap
-└── skills/                # Security testing skills
-    ├── README.md          # Skill catalog
-    └── network/           # Network pentesting skills (48 skills)
-        ├── network_scanning.md
-        ├── arp_spoofing.md
-        ├── mysql_pentesting.md
-        └── ...
+├── README.md
+├── skills/
+│   ├── web/                    # Web application skills (OWASP-based)
+│   │   ├── SKILL.md           # Web skills overview
+│   │   ├── a01-broken-access-control/
+│   │   │   ├── SKILL.md
+│   │   │   └── references/
+│   │   ├── a03-injection/
+│   │   └── ...
+│   ├── network/                # Network service skills
+│   │   ├── SKILL.md           # Network skills overview
+│   │   ├── reconnaissance/
+│   │   │   ├── SKILL.md
+│   │   │   └── references/
+│   │   ├── databases/
+│   │   └── ...
+│   └── mobile/                 # Mobile security skills
 ```
 
-### 3. Using with AI Agents
+## Agent Skills Format
 
-Configure your AI agent to use this skills directory:
+Each skill folder follows the standard:
+- **`SKILL.md`** - Required entrypoint with YAML frontmatter
+- **`references/`** - Detailed skill files
+- **`scripts/`** - Optional automation scripts
+
+## Available Skills
+
+### Web Application (32 skills in 11 categories)
+- A01: Broken Access Control (IDOR, CSRF, CORS)
+- A03: Injection (SQL, NoSQL, Command, SSTI)
+- A07: Auth Failures (JWT, OAuth, 2FA Bypass)
+- [View all web skills](skills/web/SKILL.md)
+
+### Network Services (66 skills in 14 categories)
+- Databases (MySQL, PostgreSQL, Redis, MongoDB)
+- Containers (Docker, Kubernetes)
+- Industrial IoT (Modbus, BACnet, OPC-UA)
+- [View all network skills](skills/network/SKILL.md)
+
+## Usage
 
 ```python
 from security_agent import Agent
 
-agent = Agent(
-    skills_path="/path/to/security_skills"
-)
-
-# The agent will automatically use relevant skills based on context
+agent = Agent(skills_path="/path/to/security_skills")
 agent.run("Perform security assessment of 10.10.10.1")
 ```
-
-## Available Skills
-
-### Network Pentesting (48 skills)
-
-| Category | Skills |
-|----------|--------|
-| Core Methodology | Network scanning, ARP spoofing, VLAN hopping, IPv6 attacks, WiFi, IDS evasion |
-| Databases | MySQL, PostgreSQL, MSSQL, Oracle, MongoDB, Redis, Elasticsearch |
-| Authentication | Kerberos, LDAP, RDP, VNC, WinRM |
-| Infrastructure | DNS, SNMP, NTP, DHCP |
-| Analysis | Banner grabbing, SSL/TLS analysis, CVE lookup, Attack surface assessment |
-| Other | Docker, MQTT, Modbus, Java RMI, IPMI, VoIP |
-
-See [skills/README.md](skills/README.md) for complete skill catalog.
-
-## Skill Format
-
-Each skill follows a consistent markdown structure:
-
-```markdown
-# [Service] Pentesting Skill
-
-## Goal
-Brief description of what this skill accomplishes.
-
-## Methodology
-Step-by-step testing process.
-
-## Tools
-* Relevant tools with descriptions
-
-## Example Commands
-Practical, copy-paste ready commands.
-
-## Guidance for AI
-When to activate, key considerations, best practices.
-```
-
-## Contributing
-
-### Adding New Skills
-
-1. Create a new `.md` file in the appropriate directory
-2. Follow the established skill format
-3. Include practical command examples
-4. Add "Guidance for AI" section
-5. Update the relevant README
-
-### Skill Guidelines
-
-- **Be practical**: Include real, tested commands
-- **Be comprehensive**: Cover discovery through exploitation
-- **Be safe**: Include warnings for dangerous operations
-- **Be legal**: Emphasize authorization requirements
-
-## Roadmap
-
-See [TODO.md](TODO.md) for planned additions:
-- Web application testing skills
-- Mobile security testing skills
-- Cloud security skills (AWS, Azure, GCP)
-- Active Directory attack chains
 
 ## Disclaimer
 
 ⚠️ **These skills are for authorized security testing only.**
 
-- Always obtain proper written authorization
-- Never test systems you don't own or have permission to test
-- Misuse of these techniques may be illegal
-- The authors are not responsible for misuse
 
-## License
-
-MIT License - See [LICENSE](LICENSE) for details.

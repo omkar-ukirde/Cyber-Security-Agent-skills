@@ -1,13 +1,12 @@
-# TODO - Antigravity Skills Roadmap
+# TODO - Security Skills Roadmap
 
 ## In Progress
 
-- [ ] Complete remaining network services from HackTricks
+- [ ] Complete remaining network services
 
 ## Pending Network Skills
 
 ### Authentication & Remote Access
-- [ ] SSH advanced techniques
 - [ ] Rlogin/RSH/Rexec (512-514)
 - [ ] OMI (5985, 5986, 1270)
 
@@ -18,8 +17,6 @@
 ### Database Services
 - [ ] Cassandra (9042)
 - [ ] InfluxDB (8086)
-- [ ] HSQLDB
-- [ ] H2 Database
 
 ### Email Services
 - [ ] POP3 (110, 995)
@@ -29,90 +26,29 @@
 - [ ] RPC/Portmapper (111)
 - [ ] NetBIOS (137-139)
 - [ ] MSRPC (135)
-- [ ] mDNS/Bonjour (5353)
-- [ ] WS-Discovery
-
-### VPN & Tunneling
-- [ ] PPTP (1723)
-- [ ] SOCKS proxies
 
 ### Container & Orchestration
 - [ ] Docker Registry (5000)
 - [ ] Kubernetes API (6443, 8443)
-- [ ] Tiller/Helm (44134)
 
-### Message Queues & Streaming
+### Message Queues
 - [ ] AMQP/RabbitMQ (5671, 5672)
-- [ ] NATS (4222)
-- [ ] IBM MQ (1414)
 - [ ] Apache Kafka (9092)
 
 ### Industrial & IoT
 - [ ] BACnet (47808)
 - [ ] EtherNet/IP (44818)
 - [ ] OPC-UA (4840)
-- [ ] DNP3 (20000)
-
-### Java & Application Services
-- [ ] JDWP (8000)
-- [ ] AJP (8009)
-- [ ] GDBServer
-- [ ] Distcc
-- [ ] FastCGI
-
-### Monitoring & Logging
-- [ ] Splunk (8089)
-- [ ] Kibana (5601)
-- [ ] Grafana (3000)
-- [ ] Prometheus (9090)
-
-### Printer Services
-- [ ] LPD (515)
-- [ ] IPP/CUPS (631)
-- [ ] PJL/Raw Printing (9100)
-
-### Management & Remote Access
-- [ ] HP Insight Manager
-- [ ] Android ADB (5555)
-
-### Storage Services
-- [ ] GlusterFS (24007-24009)
-- [ ] iSCSI (3260)
-- [ ] NDMP (10000)
-
-### Proxy Services
-- [ ] Squid (3128)
-- [ ] HTTP Proxy (8080)
-
-### SAP Services
-- [ ] SAP Router (3299)
-- [ ] SAP RFC (3300+)
-- [ ] SAP Dispatcher (3200+)
-
-### Network Equipment
-- [ ] Cisco Smart Install (4786)
-- [ ] Check Point Firewall (18264)
-- [ ] Fortinet (10443)
-
-### Other Services
-- [ ] Finger (79)
-- [ ] Ident (113)
-- [ ] WHOIS (43)
-- [ ] RTSP (554)
-- [ ] IRC (6667)
-- [ ] Bitcoin (8333)
 
 ---
 
 ## Web Application Skills (Planned)
 
 ### Injection Attacks
-- [ ] SQL Injection (SQLi)
+- [ ] SQL Injection
 - [ ] NoSQL Injection
-- [ ] LDAP Injection
 - [ ] Command Injection
 - [ ] Template Injection (SSTI)
-- [ ] XPath Injection
 
 ### Cross-Site Attacks
 - [ ] XSS (Reflected, Stored, DOM)
@@ -124,37 +60,15 @@
 - [ ] XXE
 - [ ] File Upload
 - [ ] LFI/RFI
-- [ ] Path Traversal
-- [ ] Deserialization
 
-### Authentication & Sessions
+### Authentication
 - [ ] JWT attacks
 - [ ] OAuth attacks
-- [ ] SAML attacks
 - [ ] Session management
-- [ ] Password attacks
-
-### Business Logic
-- [ ] IDOR
-- [ ] Race conditions
-- [ ] Price manipulation
-- [ ] Privilege escalation
 
 ### API Security
 - [ ] REST API testing
 - [ ] GraphQL attacks
-- [ ] SOAP attacks
-- [ ] WebSocket attacks
-
-### CMS & Frameworks
-- [ ] WordPress
-- [ ] Drupal
-- [ ] Joomla
-- [ ] Django
-- [ ] Flask
-- [ ] Spring
-- [ ] Node.js/Express
-- [ ] Laravel/PHP
 
 ---
 
@@ -162,16 +76,11 @@
 
 ### Android
 - [ ] APK analysis
-- [ ] Root detection bypass
 - [ ] SSL pinning bypass
-- [ ] Intent attacks
-- [ ] Content provider attacks
 
 ### iOS
 - [ ] IPA analysis
-- [ ] Jailbreak detection bypass
 - [ ] Keychain attacks
-- [ ] URL scheme attacks
 
 ---
 
@@ -180,51 +89,16 @@
 ### AWS
 - [ ] S3 bucket attacks
 - [ ] IAM exploitation
-- [ ] Lambda attacks
-- [ ] EC2 metadata
 
 ### Azure
 - [ ] Blob storage
 - [ ] Azure AD
-- [ ] Function attacks
-
-### GCP
-- [ ] Cloud Storage
-- [ ] IAM exploitation
-- [ ] Compute metadata
-
----
-
-## Post-Exploitation Skills (Planned)
-
-### Windows
-- [ ] Privilege escalation
-- [ ] Credential dumping
-- [ ] Persistence techniques
-- [ ] Lateral movement
-- [ ] AD attacks
-
-### Linux
-- [ ] Privilege escalation
-- [ ] Credential harvesting
-- [ ] Persistence
-- [ ] Container escapes
-
----
-
-## Infrastructure
-
-- [ ] Add automated skill validation
-- [ ] Add skill versioning
-- [ ] Create skill templates
-- [ ] Add CI/CD for validation
-- [ ] Create skill generator tool
 
 ---
 
 ## Completed ✅
 
-### Network Core (9 skills)
+### Network Core (13 skills)
 - [x] network_scanning.md
 - [x] arp_spoofing.md
 - [x] dhcp_attacks.md
@@ -234,6 +108,13 @@
 - [x] ids_ips_evasion.md
 - [x] wifi_pentesting.md
 - [x] tunneling_port_forwarding.md
+- [x] banner_grabbing.md
+- [x] ssl_tls_analysis.md
+- [x] plaintext_protocol_detection.md
+- [x] attack_surface_assessment.md
+
+### Analysis (1 skill)
+- [x] cve_lookup.md
 
 ### Services (34 skills)
 - [x] dns_pentesting.md
@@ -273,6 +154,4 @@
 
 ---
 
-**Total: 43 completed / 100+ planned**
-
-*Last updated: 2026-02-02*
+**Total: 48 completed / 100+ planned**

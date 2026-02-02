@@ -1,6 +1,6 @@
-# Antigravity Skills
+# Security Skills
 
-A comprehensive collection of AI-powered penetration testing skills for the [Antigravity](https://github.com/antigravity-ai/antigravity) framework.
+A comprehensive collection of AI-powered penetration testing skills for security assessment frameworks.
 
 ## Overview
 
@@ -11,34 +11,34 @@ This repository contains structured skill files that enable AI agents to perform
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/antigravity_skills.git
-cd antigravity_skills
+git clone https://github.com/yourusername/security_skills.git
+cd security_skills
 ```
 
 ### 2. Directory Structure
 
 ```
-antigravity_skills/
+security_skills/
 ├── README.md              # This file
 ├── TODO.md                # Pending tasks and roadmap
-└── hacktricks/            # HackTricks-based skills
+└── skills/                # Security testing skills
     ├── README.md          # Skill catalog
-    └── network/           # Network pentesting skills (43 skills)
+    └── network/           # Network pentesting skills (48 skills)
         ├── network_scanning.md
         ├── arp_spoofing.md
         ├── mysql_pentesting.md
         └── ...
 ```
 
-### 3. Using with Antigravity
+### 3. Using with AI Agents
 
-Configure Antigravity to use this skills directory:
+Configure your AI agent to use this skills directory:
 
 ```python
-from antigravity import Agent
+from security_agent import Agent
 
 agent = Agent(
-    skills_path="/path/to/antigravity_skills"
+    skills_path="/path/to/security_skills"
 )
 
 # The agent will automatically use relevant skills based on context
@@ -47,7 +47,7 @@ agent.run("Perform security assessment of 10.10.10.1")
 
 ## Available Skills
 
-### Network Pentesting (43 skills)
+### Network Pentesting (48 skills)
 
 | Category | Skills |
 |----------|--------|
@@ -55,9 +55,10 @@ agent.run("Perform security assessment of 10.10.10.1")
 | Databases | MySQL, PostgreSQL, MSSQL, Oracle, MongoDB, Redis, Elasticsearch |
 | Authentication | Kerberos, LDAP, RDP, VNC, WinRM |
 | Infrastructure | DNS, SNMP, NTP, DHCP |
+| Analysis | Banner grabbing, SSL/TLS analysis, CVE lookup, Attack surface assessment |
 | Other | Docker, MQTT, Modbus, Java RMI, IPMI, VoIP |
 
-See [hacktricks/README.md](hacktricks/README.md) for complete skill catalog.
+See [skills/README.md](skills/README.md) for complete skill catalog.
 
 ## Skill Format
 
@@ -107,13 +108,6 @@ See [TODO.md](TODO.md) for planned additions:
 - Cloud security skills (AWS, Azure, GCP)
 - Active Directory attack chains
 
-## Source
-
-Skills are derived from:
-- [HackTricks](https://book.hacktricks.xyz/) - The hacker's wiki
-- [OWASP](https://owasp.org/) - Web security standards
-- Real-world pentesting experience
-
 ## Disclaimer
 
 ⚠️ **These skills are for authorized security testing only.**
@@ -126,8 +120,3 @@ Skills are derived from:
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
-
-## Support
-
-- Issues: [GitHub Issues](https://github.com/yourusername/antigravity_skills/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/antigravity_skills/discussions)

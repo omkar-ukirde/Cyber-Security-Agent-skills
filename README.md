@@ -59,6 +59,12 @@ agent = Agent(skills_path="/path/to/security_skills")
 agent.run("Perform security assessment of 10.10.10.1")
 ```
 
+## To use this in Antigravity
+Place this skills folder in <workspace-root>/.agent/skills/
+You can provide kali with kali MCP or burp with burp MCP.
+That's it. 
+Just fire commands and antigravity will perform all testing for you.
+
 ## Disclaimer
 
 ⚠️ **These skills are for authorized security testing only.**

@@ -1,5 +1,5 @@
 ---
-name: web-skills
+name: web
 description: Web application security testing skills organized by OWASP Top 10 2021 categories.
 metadata:
   version: "1.0"

@@ -1,5 +1,5 @@
 ---
-name: network-skills
+name: network
 description: Network penetration testing skills for service exploitation and protocol attacks.
 metadata:
   version: "1.0"

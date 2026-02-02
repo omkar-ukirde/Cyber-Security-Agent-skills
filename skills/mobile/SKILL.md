@@ -1,5 +1,5 @@
 ---
-name: mobile-skills
+name: mobile
 description: Mobile application security testing skills for Android and iOS platforms.
 metadata:
   version: "1.0"

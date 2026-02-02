@@ -1,5 +1,5 @@
 ---
-name: active-directory-skills
+name: active-directory
 description: Active Directory penetration testing skills for Kerberos attacks, enumeration, and lateral movement.
 metadata:
   version: "1.0"

@@ -2,6 +2,37 @@
 
 Skills organized following [Agent Skills](https://agentskills.io) open standard.
 
+## Overview
+
+| Category | Skills |
+|----------|--------|
+| Web | 32 |
+| Network | 66 |
+| Mobile | 3 |
+| Active Directory | 4 |
+| **Total** | **105** |
+
+---
+
+## Mobile Skills (3 skills)
+
+| Category | SKILL.md | Skills |
+|----------|----------|--------|
+| Android | [SKILL.md](mobile/android/SKILL.md) | 2 |
+| iOS | [SKILL.md](mobile/ios/SKILL.md) | 1 |
+
+---
+
+## Active Directory Skills (4 skills)
+
+| Category | SKILL.md | Skills |
+|----------|----------|--------|
+| Kerberos Attacks | [SKILL.md](active-directory/kerberos-attacks/SKILL.md) | 2 |
+| Enumeration | [SKILL.md](active-directory/enumeration/SKILL.md) | 1 |
+| Lateral Movement | [SKILL.md](active-directory/lateral-movement/SKILL.md) | 1 |
+
+---
+
 ## Web Application Skills (32 skills)
 
 | Category | SKILL.md | Skills |

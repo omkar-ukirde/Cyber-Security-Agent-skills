@@ -28,6 +28,7 @@ Comprehensive network penetration testing skills organized by service category.
 | [Security Analysis](security-analysis/SKILL.md) | SSL/TLS, evasion | 3 |
 | [Wireless](wireless/SKILL.md) | WiFi attacks | 1 |
 | [Other Services](other-services/SKILL.md) | Java RMI, X11, VoIP | 5 |
+| [CVE Hunting](cve-hunting/SKILL.md) | Fetch latest network CVEs | 1 |
 
 ## Quick Reference
 

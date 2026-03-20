@@ -89,8 +89,31 @@
 
 ---
 
-**Total: 105 skills completed**
-- Web: 32 skills
-- Network: 66 skills
-- Mobile: 3 skills
-- Active Directory: 4 skills
+**Total: 113 skills completed**
+- Web: 35 skills
+- Network: 67 skills
+- Mobile: 4 skills
+- Active Directory: 5 skills
+- Reporting: 2 skills
+
+---
+
+## ✅ New Additions
+
+### Web
+- [x] web2-recon.md
+- [x] web3-audit.md
+- [x] cve-hunting.md
+
+### Network
+- [x] cve-hunting.md
+
+### Mobile
+- [x] cve-hunting.md
+
+### Active Directory
+- [x] cve-hunting.md
+
+### Reporting & Validation
+- [x] report-writing.md
+- [x] triage-validation.md

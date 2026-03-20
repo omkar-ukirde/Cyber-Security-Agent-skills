@@ -6,11 +6,12 @@ Skills organized following [Agent Skills](https://agentskills.io) open standard.
 
 | Category | Skills |
 |----------|--------|
-| Web | 32 |
-| Network | 66 |
-| Mobile | 3 |
-| Active Directory | 4 |
-| **Total** | **105** |
+| Web | 35 |
+| Network | 67 |
+| Mobile | 4 |
+| Active Directory | 5 |
+| Reporting | 2 |
+| **Total** | **113** |
 
 ---
 
@@ -20,6 +21,7 @@ Skills organized following [Agent Skills](https://agentskills.io) open standard.
 |----------|----------|--------|
 | Android | [SKILL.md](mobile/android/SKILL.md) | 2 |
 | iOS | [SKILL.md](mobile/ios/SKILL.md) | 1 |
+| CVE Hunting | [SKILL.md](mobile/cve-hunting/SKILL.md) | 1 |
 
 ---
 
@@ -30,6 +32,7 @@ Skills organized following [Agent Skills](https://agentskills.io) open standard.
 | Kerberos Attacks | [SKILL.md](active-directory/kerberos-attacks/SKILL.md) | 2 |
 | Enumeration | [SKILL.md](active-directory/enumeration/SKILL.md) | 1 |
 | Lateral Movement | [SKILL.md](active-directory/lateral-movement/SKILL.md) | 1 |
+| CVE Hunting | [SKILL.md](active-directory/cve-hunting/SKILL.md) | 1 |
 
 ---
 
@@ -48,6 +51,9 @@ Skills organized following [Agent Skills](https://agentskills.io) open standard.
 | XSS | [SKILL.md](web/xss/SKILL.md) | 2 |
 | API Security | [SKILL.md](web/api-security/SKILL.md) | 2 |
 | File Attacks | [SKILL.md](web/file-attacks/SKILL.md) | 1 |
+| Web2 Recon | [SKILL.md](web/web2-recon/SKILL.md) | 1 |
+| Web3 Audit | [SKILL.md](web/web3-audit/SKILL.md) | 1 |
+| CVE Hunting | [SKILL.md](web/cve-hunting/SKILL.md) | 1 |
 
 ## Network Service Skills (66 skills)
 
@@ -67,3 +73,13 @@ Skills organized following [Agent Skills](https://agentskills.io) open standard.
 | Security Analysis | [SKILL.md](network/security-analysis/SKILL.md) | 3 |
 | Wireless | [SKILL.md](network/wireless/SKILL.md) | 1 |
 | Other Services | [SKILL.md](network/other-services/SKILL.md) | 5 |
+| CVE Hunting | [SKILL.md](network/cve-hunting/SKILL.md) | 1 |
+
+---
+
+## Reporting & Validation Skills (2 skills)
+
+| Category | SKILL.md | Skills |
+|----------|----------|--------|
+| Report Writing | [SKILL.md](reporting/report-writing/SKILL.md) | 1 |
+| Triage & Validation | [SKILL.md](reporting/triage-validation/SKILL.md) | 1 |

@@ -32,6 +32,9 @@ Comprehensive web application penetration testing skills based on OWASP Top 10 2
 | [XSS](xss/SKILL.md) | Cross-Site Scripting, Clickjacking |
 | [API Security](api-security/SKILL.md) | GraphQL, REST API |
 | [File Attacks](file-attacks/SKILL.md) | LFI, RFI |
+| [Web2 Recon](web2-recon/SKILL.md) | Recon pipeline, tech detection |
+| [Web3 Audit](web3-audit/SKILL.md) | Smart contract audit, DeFi |
+| [CVE Hunting](cve-hunting/SKILL.md) | Fetch latest web CVEs |
 
 ## Quick Reference
 

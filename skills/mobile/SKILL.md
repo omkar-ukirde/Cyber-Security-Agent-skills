@@ -16,6 +16,7 @@ Comprehensive mobile application penetration testing skills.
 |----------|--------|-------|
 | [Android](android/SKILL.md) | 2 | APK analysis, SSL bypass |
 | [iOS](ios/SKILL.md) | 1 | IPA analysis |
+| [CVE Hunting](cve-hunting/SKILL.md) | 1 | Fetch latest mobile CVEs |
 
 ## Quick Reference
 

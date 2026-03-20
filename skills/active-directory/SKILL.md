@@ -17,6 +17,7 @@ Comprehensive Active Directory penetration testing skills.
 | [Kerberos Attacks](kerberos-attacks/SKILL.md) | 2 | Kerberoast, AS-REP Roasting |
 | [Enumeration](enumeration/SKILL.md) | 1 | BloodHound, LDAP enum |
 | [Lateral Movement](lateral-movement/SKILL.md) | 1 | Pass-the-Hash, PTT |
+| [CVE Hunting](cve-hunting/SKILL.md) | 1 | Fetch latest AD CVEs |
 
 ## Quick Reference
 
